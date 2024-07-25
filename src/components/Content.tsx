@@ -4,19 +4,19 @@ import { BsArrowUpRightCircle } from "react-icons/bs"
 
 const Content = () => {
   return (
-    <>
+    <div className="">
       <div className="bg-[url('/sample.png')] w-full h-screen md:h-full bg-cover bg-center md:bg-top   md:rounded-xl">
         <div className=" flex flex-col">
           <div className=" w-full h-full md:grid grid-cols-2 hidden">
-            <div className=" flex flex-col  md:gap-y-28 xl:gap-y-16  border-[7px] border-b-0 border-white place-content-start w-full ">
+            <div className=" flex flex-col  md:gap-y-28 xl:gap-y-16   border-[7px] border-b-0 border-white place-content-start w-full ">
               <div className="bg-white h-[13rem] w-full ">
                 <div className="bg-[url('/pic11.png')]  w-full  bg-cover bg-center  rounded-md border-b-[8px] border-white ">
-                  <div className=" bg-black/40 w-full  text-white py-4 mb-[0.01rem] px-3 overflow-hidden rounded-md space-y-6">
+                  <div className=" bg-black/65 w-full  text-white py-4 mb-[0.01rem] px-3 overflow-hidden rounded-md space-y-6">
                     <div className=" flex items-start justify-between ">
                       <p className=" font-semibold lg:text-3xl text-2xl">
                         How are we contributing <br /> to health and covid19?
                       </p>
-                      <div className=" flex flex-col gap-y-6 items-center">
+                      <div className=" flex flex-col gap-y-6 items-center mr-5">
                         <Image
                           src="/slide1.png"
                           width={500}
@@ -51,8 +51,8 @@ const Content = () => {
                   </div>
                 </div>
               </div>
-              <div className="flex flex-col gap-y-10 px-4 py-4  border-white border-b-[7px] overflow-hidden rounded-xl">
-                <p className=" text-5xl text-white font-bold ">
+              <div className="flex flex-col gap-y-20 px-4 py-4  border-white border-b-[7px] overflow-hidden rounded-xl pt-6 2xl:pt-7">
+                <p className=" 2xl:text-[4.3rem] text-6xl 2xl:leading-[4.3rem] text-white font-bold ">
                   Save the <br /> World
                 </p>
 
@@ -102,9 +102,9 @@ const Content = () => {
             </div>
           </div>
           <div>
-            <div className=" hidden md:block py-4 md:px-[0rem] xl:px-[5rem] md:border-[7px] border-white">
-              <div className=" grid md:grid-cols-3 px-5 gap-x-4 place-items-stretch">
-                <div className="  bg-white rounded-lg flex flex-col  justify-between max-w-[17rem] p-3">
+            <div className=" hidden md:block py-4 md:px-[0rem] xl:px-[0rem] md:border-[7px] border-white w-full rounded-lg">
+              <div className=" grid md:grid-cols-3 px-4 w-full gap-x-6 rounded-lg">
+                <div className="  bg-white rounded-lg flex flex-col gap-y-20  justify-between  p-3">
                   <div>
                     <p className=" text-[1.2rem] font-semibold">
                       View Dashboard
@@ -113,12 +113,12 @@ const Content = () => {
                       Created by PowerBI
                     </p>
                   </div>
-                  <div className=" self-end">
+                  <div className=" self-end uppercase text-[1.3rem]">
                     Open{" "}
-                    <BsArrowUpRightCircle className=" inline-block ml-1 size-6" />
+                    <BsArrowUpRightCircle className=" inline-block  size-8" />
                   </div>
                 </div>
-                <div className=" hidden  bg-white bg-opacity-20 backdrop-blur-md rounded-lg md:flex flex-col  justify-between max-w-[17rem] p-3">
+                <div className=" hidden  bg-white bg-opacity-20 backdrop-blur-md rounded-lg md:flex flex-col  justify-between p-3">
                   <div>
                     <p className=" text-[1.2rem] font-semibold text-white/70">
                       Team Profile
@@ -128,14 +128,14 @@ const Content = () => {
                     </p>
                   </div>
                   <div className=" self-end">
-                    <BsArrowUpRightCircle className=" inline-block ml-1 size-6 text-white" />
+                    <BsArrowUpRightCircle className=" inline-block ml-1 size-8 text-white" />
                   </div>
                 </div>
-                <div className=" hidden md:block  bg-white rounded-lg space-y-1 max-w-[17rem] p-3">
+                <div className=" hidden   bg-white rounded-lg  md:flex md:flex-col  p-3">
                   <p className=" text-[1.2rem] font-semibold">
                     Our Collaborators
                   </p>
-                  <div className=" flex gap-x-3 items-center justify-between">
+                  <div className=" flex gap-x-3 items-center justify-between h-full">
                     <div className=" flex flex-col gap-y-2">
                       <Image
                         src="/ii3.png"
@@ -157,7 +157,7 @@ const Content = () => {
                       width={500}
                       height={500}
                       alt="image"
-                      className=" size-20"
+                      className=" h-[7rem] w-[7rem]"
                     />
                   </div>
                 </div>
@@ -233,7 +233,7 @@ const Content = () => {
           />
         </div>
       </div>
-    </>
+    </div>
   )
 }
 

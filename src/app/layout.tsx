@@ -15,7 +15,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className=" font-poppins duration-300 transition">
+      <body className=" font-poppins duration-300 transition md:border-t-[4px] md:border-b-[4px] 2xl:border-r-[50px] 2xl:border-l-[50px] md:border-[30px]  border-t-[4px] border-b-[4px] border-white xl:border-r-[40px] xl:border-l-[40px]">
         <Header />
         <main>{children}</main>
       </body>
