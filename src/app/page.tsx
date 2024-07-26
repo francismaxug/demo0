@@ -2,7 +2,7 @@ import Content from "@/components/Content"
 
 export default function Home() {
   return (
-    <main className=" ">
+    <main className="">
       <Content />
     </main>
   )

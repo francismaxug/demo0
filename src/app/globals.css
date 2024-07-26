@@ -24,3 +24,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+.full-screen-bg {
+  min-height: 100vh;
+  min-height: -webkit-fill-available;
+}

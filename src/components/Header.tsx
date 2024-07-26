@@ -24,7 +24,7 @@ const Header = () => {
         </nav>
       </div>
       {open && (
-        <nav className=" flex  items-center justify-center gap-x-4 mt-6">
+        <nav className=" flex  items-center justify-center gap-x-4 mt-5  mb-2">
           <button className=" rounded-full  px-3 py-1 border border-black text-[0.85rem]">
             Contact Us
           </button>
